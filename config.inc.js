@@ -1,5 +1,5 @@
 module.exports = {
-	url:'http://qk.immo.cn',
+	url:'http://www.immortalshealth.com',
 	page:{
 		size:20,
 		pageNo:1

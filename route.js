@@ -12,7 +12,7 @@ module.exports = function(app) {
             res.locals.title = '全局挂载的标题';
             next();
         })
-        .get('/',function(req,res,next){
+        .get('/paper',function(req,res,next){
             res.render('index')
         })
 
@@ -22,7 +22,7 @@ module.exports = function(app) {
             res.locals.status = 0;
             next();
         })
-        .get('/initWx',initWx)
+        .get('/paper/initWx',initWx)
 
         .all('*', function(req, res) {
             res.status(200);
