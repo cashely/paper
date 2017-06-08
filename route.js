@@ -1,7 +1,6 @@
 const md5 = require('./modules/md5.js');
 const path = require('path');
 const initWx = require('./routes/initWx.js');
-
 /* GET home page. */
 module.exports = function(app) {
     app

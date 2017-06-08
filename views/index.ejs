@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/paper/stylesheets/style.css' />
+    <title>BMP</title>
+    <link rel='stylesheet' href='/paper/stylesheets/style.css'/>
     <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <!--<h1><%= title %></h1>-->
+    <!--<p>Welcome to <%= title %></p>-->
+    <div id="imgs">
+      <div class="check">点击查看</div>
+      <img src="/paper/images/icon-down.png" class="icon-down">
+      <img src="/paper/images/cover.png" class="cover">
+    </div>
+    <script src="/paper/javascripts/index.js"></script>
   </body>
 </html>
